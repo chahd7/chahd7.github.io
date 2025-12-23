@@ -1,8 +1,8 @@
-<div style="display: flex; align-items: flex-start; gap: 30px;">
+<div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 20px;">
 
-  
-  <div>
-    <img src="portfolio_pic.jpeg" alt="Chahd Maatallaoui" width="200" style="border-radius: 50%;">
+  <div style="text-align: center;">
+    <img src="portfolio_pic.jpeg" alt="Chahd Maatallaoui" width="150" style="border-radius: 50%; display: block; margin-bottom: 10px;">
+    <a href="https://github.com/chahd7" target="_blank" style="font-size: 0.9em;">View My GitHub Profile</a>
   </div>
 
 
@@ -28,5 +28,7 @@
       <li>LinkedIn: <a href="https://www.linkedin.com/in/chahd-maatallaoui-890822242">linkedin.com/in/chahdmaatallaoui</a></li>
     </ul>
   </div>
+
 </div>
+
 
