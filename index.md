@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: flex-start; gap: 30px;">
 
- 
+  
   <div>
     <img src="portfolio_pic.jpeg" alt="Chahd Maatallaoui" width="200" style="border-radius: 50%;">
   </div>
@@ -29,3 +29,4 @@
     </ul>
   </div>
 </div>
+
