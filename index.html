@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chahd Maatallaoui Portfolio</title>
+  <style>
+    .container {
+      display: flex;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .left-column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .left-column img {
+      width: 90%;
+      height: 90%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .left-column a {
+      margin-top: 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .right-column {
+      flex: 1;
+      padding: 40px;
+      overflow-y: auto;
+    }
+
+    h1, h2 {
+      margin: 10px 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #1a0dab;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <img src="portfolio_pic.jpeg" alt="Chahd Maatallaoui">
+    </div>
+    <div class="right-column">
+      <h1>Welcome to My Portfolio 👋</h1>
+      <p>Hi, I’m <strong>Chahd Maatallaoui</strong>, a Data Science student passionate about using data and engineering to solve real-world problems across different industries.</p>
+
+      <h2>💻 Featured Projects</h2>
+      <ul>
+        <li>🫀 <a href="https://github.com/chahd7/computer_vision_speckle_tracking">Speckle tracking in echocardiography using Computer Vision</a></li>
+        <ul>
+          <li>Built an end-to-end model for heart cavities detection and tracking that is able to calculate different metrics such as the heart rate, the ejection fraction, the volume and the radial strain of each cavity.
+          This project was done in collaboration with medical professionals with the goal of providing an alternative to expensive speckle tracking methods and a web-application was built to allow for the echocardiography video to be uploaded and for the results to be provided all in one place.</li>
+          <li>CVAT, REAL-ESRGAN, MONAI + SwinUNETR</li>
+          <li><a href="https://youtu.be/sOGSuMU6PKk">Demonstration</a></li>
+        </ul>
+         <li>🧬 <a href="">Drug discovery using Machine Learning for Aromatase (behind breast cancer)</a></li>
+        <ul>
+          <li></li>
+          <li>Chembl, pandas, numpy, seaborn, rdkit, matplotlib, LazyRegressor</li>
+        </ul>
+        <li>🔎 <a href="https://github.com/chahd7/research_assistant_agent">Research Assistant Agent</a></li>
+        <ul>
+          <li>Built an agent that is able to turn a query into a vector, and search and scrape the web to find the text vectors with the closest coordinates to the query's. For each retrieved link, the passages closest to the query are returned and from these passages, the closest sentences are combined to form an overall summary. Everything is then provided within a streamlit web application for ease of use.</li>
+          <li>BeautifulSoup, DDGS API, SentenceTransformer, urllib, Streamlit, RAG, vector embedding</li>
+          <li><a href="https://researchassistantagent-badhavyx3dsvvnrpl9cshh.streamlit.app">Demonstration</a></li>
+        </ul>
+        <li>📈 <a href="https://github.com/chahd7/stock-market-real-time-data-analysis">Stock-market Real Time Analysis</a></li>
+        <ul>
+          <li>Built using KAFKA and AWS services a simulation of real-time Stock-market data that will allow to perform analytics on the data as it comes instantly.</li>
+          <li>KAFKA, Amazon EC2, Amazon S3, Crawler, AWS Glue, Amazon Athena</li>
+        </ul>
+        <li>🎮 <a href="https://github.com/chahd7/RL_agent_frozen_lake_game">Deep Reinforcement-Learning Agent for the Frozen Lake game</a></li>
+        <ul>
+          <li>Created using the torch and the gymnasium libraries a deep Q-Learning agent that is able to learn and adapt to the Frozen Lake Game through trial and error, with the goal of reaching the winning state.</li>
+          <li>Deep Q-Learning (DQNAgent), Python Gymnasium, Torch</li>
+        </ul>
+        <li>🍔 <a href="https://github.com/chahd7/No_To_Waste_Recommender">NoToWaste Food Recommender</a></li>
+        <ul>
+          <li>NoToWaste is a web application that allows users to enter the content of their fridge as their diets and food elements to avoid, and using a database gathered using thousands of recipes across the internet it provides to them different recommendations matching their input and ranked by time and difficulty.</li>
+          <li>Python, pandas, streamlit, data analysis, word embedding, Streamlit, web scrapping</li>
+          <li><a href="https://notowasterecommender-npm7tl9g3fngs2wj4l2vcc.streamlit.app">Demonstration</a></li>
+        </ul>
+      </ul>
+
+      <h2>🎓 Education</h2>
+      <p><strong>M.Sc. Data Science</strong> – University of Helsinki (2025-Ongoing)<br>
+      <strong>B.Sc. Computer Science</strong> – Al Akhawayn University (2021-2025)</p>
+
+      <h2>📫 Contact</h2>
+      <ul>
+        <li>Email: maatallaouichahd7@gmail.com</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/chahd-maatallaoui-890822242">linkedin.com/in/chahdmaatallaoui</a></li>
+        <li>Github: <a href="https://github.com/chahd7">github.com/chahd7</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
